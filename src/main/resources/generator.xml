@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <entry key="tableRemovePrefixes"></entry>
+
+    <!-- 数据库类型映射  -->
+    <entry key="java_typemapping.java.sql.Timestamp">Date</entry>
+    <entry key="java_typemapping.java.sql.Date">Date</entry>
+    <entry key="java_typemapping.java.sql.Time">Date</entry>
+    <entry key="java_typemapping.java.lang.Byte">Integer</entry>
+    <entry key="java_typemapping.java.lang.Short">Integer</entry>
+    <entry key="java_typemapping.java.math.BigDecimal">Long</entry>
+    <entry key="java_typemapping.java.lang.String">String</entry>
+    <entry key="java_typemapping.java.lang.Object">String</entry>
+
+    <!-- sqlserver 映射 -->
+   <!-- <entry key="java_typemapping.java.lang.Integer">int</entry>
+    <entry key="java_typemapping.java.lang.Object">String</entry>-->
+
+    <!-- mysql数据库连接-->
+    <!--<entry key="jdbc_url">jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=UTF-8</entry>
+    <entry key="jdbc_driver">com.mysql.jdbc.Driver</entry>
+    <entry key="jdbc_username">root</entry>
+    <entry key="jdbc_password">focuss</entry>-->
+
+    <!-- SqlServer数据库连接  -->
+    <entry key="jdbc_url">jdbc:sqlserver://127.0.0.1:1433;Databasename=test</entry>
+    <entry key="jdbc_driver">com.microsoft.sqlserver.jdbc.SQLServerDriver</entry>
+    <entry key="jdbc_username">sa</entry>
+    <entry key="jdbc_password">ok</entry>
+
+
+    <!-- Oracle 数据库连接  -->
+    <!--
+     <entry key="jdbc.url">jdbc:oracle:thin:@127.0.0.1:1521:[sid]</entry>
+     <entry key="jdbc.driver">oracle.jdbc.driver.OracleDriver</entry>
+     <entry key="jdbc_schema"></entry>
+     <entry key="jdbc_catalog"></entry>
+     -->
+
+</properties>
