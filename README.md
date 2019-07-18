@@ -1,6 +1,6 @@
 # CodeGenerator
 生成SSM框架整个Java基础后台文件和vue单组件文件。
-生成的SSM框架文件包括:
+# 生成的SSM框架文件包括:
   1.Controller
   2.Service
   3.ServiceImpl
