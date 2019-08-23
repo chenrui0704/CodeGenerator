@@ -20,8 +20,6 @@ public class GeneratorUtil {
     private Properties properties = new Properties();
     private DataSource dataSource = new DataSource();
     private BaseDao baseDao;
-
-
     private Map<String, List<View>> viewsMap = new HashMap<>(); // key = viewName  value = viewField
     private List<List<View>> viewsList = new ArrayList<>();
 
