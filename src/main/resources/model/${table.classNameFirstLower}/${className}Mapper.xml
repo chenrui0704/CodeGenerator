@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="${package}.dao.${table.className}Mapper">
+<mapper namespace="${package}.dao.${table.className}Dao">
 
     <select id="query" resultType="${package}.entity.${table.className}">
         select * from ${table.sqlName}
