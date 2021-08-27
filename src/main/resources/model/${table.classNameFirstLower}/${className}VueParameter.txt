@@ -2,6 +2,6 @@ ${table.classNameFirstLower}:{
 <#list table.columns as column>
 	<#assign length ="${column.javaType?length}">
 	<#assign end ="${column.javaType?last_index_of(\".\")}">
-	${column.columnNameLower}: '', // ${column.remarks}
+	${column.columnNameLower}: '',
 </#list>
 }

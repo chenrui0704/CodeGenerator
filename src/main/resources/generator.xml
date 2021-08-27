@@ -19,16 +19,21 @@
     <entry key="java_typemapping.java.lang.Object">String</entry>-->
 
     <!-- mysql数据库连接-->
-    <!--<entry key="jdbc_url">jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=UTF-8</entry>
+    <!--<entry key="jdbc_url">jdbc:mysql://192.168.17.50:3306/flight</entry>
     <entry key="jdbc_driver">com.mysql.jdbc.Driver</entry>
     <entry key="jdbc_username">root</entry>
-    <entry key="jdbc_password">focuss</entry>-->
+    <entry key="jdbc_password">java50@unilog</entry>-->
+
+    <!--<entry key="jdbc_url">jdbc:mysql://127.0.0.1:3306/base-frame</entry>
+    <entry key="jdbc_driver">com.mysql.jdbc.Driver</entry>
+    <entry key="jdbc_username">root</entry>
+    <entry key="jdbc_password">root</entry>-->
 
     <!-- SqlServer数据库连接  -->
-    <entry key="jdbc_url">jdbc:sqlserver://127.0.0.1:1433;Databasename=test</entry>
+    <entry key="jdbc_url">jdbc:sqlserver://58.215.191.38:1580;Databasename=soop0128</entry>
     <entry key="jdbc_driver">com.microsoft.sqlserver.jdbc.SQLServerDriver</entry>
-    <entry key="jdbc_username">sa</entry>
-    <entry key="jdbc_password">ok</entry>
+    <entry key="jdbc_username">java</entry>
+    <entry key="jdbc_password">unilog202</entry>
 
 
     <!-- Oracle 数据库连接  -->
