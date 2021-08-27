@@ -13,7 +13,7 @@ public class GeneratorMain {
 
     public static void main(String[] args) {
         // 根据数据库表生成  全部生成用 all  多个,隔开  1.all 2. test,test2   3. test
-         new GeneratorUtil().generatorByTable("Customer_PersonnelLabel_Mapping");
+         new GeneratorUtil().generatorByTable("Announcement");
     }
 
 }
